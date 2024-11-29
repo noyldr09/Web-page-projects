@@ -1,5 +1,6 @@
 html,
 body {
+    font-family: Georgia, serif,Arial,sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -25,13 +26,14 @@ body {
     padding: 0;
     margin: 0;
     font-size: 18px;
+    font-size: .95em;
 }
 
 a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
+    color: black;   
 }
 
 li {
@@ -39,6 +41,7 @@ li {
     padding: 20px;
     padding-left: 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 ul li {
