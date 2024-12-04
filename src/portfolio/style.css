@@ -53,6 +53,13 @@ ul li {
     padding-right: 80px;
 }
 
+.logo, p {
+    color: antiquewhite;
+    background: transparent;
+    position: absolute;
+    
+}
+
 
 /*
 #navbar {
