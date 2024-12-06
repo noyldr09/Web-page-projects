@@ -53,11 +53,18 @@ ul li {
     padding-right: 80px;
 }
 
-.logo, p {
+.logo, span {
     color: antiquewhite;
-    background: transparent;
+    /*background: transparent;*/
     position: absolute;
-    
+    margin: 0;
+    margin-left: 5%;
+    padding: 5px;
+    text-transform: capitalize;
+    font-family: Brush Script MT, Brush Script Std, cursive ;
+    font-size: 1.95em;
+    font-weight: 400;
+    z-index: 4;
 }
 
 
