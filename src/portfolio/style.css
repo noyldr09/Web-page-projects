@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 html,
 body {
-    font-family: Montserrat, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -26,15 +24,14 @@ body {
     display: block;
     padding: 0;
     margin: 0;
-    font-size: .85em;
-    font-weight:600;
+    font-size: 18px;
 }
 
 a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;   
+    color: black;
 }
 
 li {
@@ -42,7 +39,6 @@ li {
     padding: 20px;
     padding-left: 0;
     text-align: center;
-    text-transform: capitalize;
 }
 
 ul li {
@@ -53,22 +49,49 @@ ul li {
     padding-right: 80px;
 }
 
-.logo, span {
-    color: antiquewhite;
-    /*background: transparent;*/
-    position: absolute;
+
+/*
+#navbar {
+    background: #fff;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+}
+
+.nav-list1 {
+    
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav-list2 div {
+    
+    position: fixed;
+    transform: rotate(-90deg);
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.nav-list3 div {
+    
+    position: fixed;
+    transform: rotate(90deg);
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.list a {
     margin: 0;
-    margin-left: 5%;
-    padding: 5px;
-    text-transform: capitalize;
-    font-family: Brush Script MT, Brush Script Std, cursive ;
-    font-size: 1.95em;
-    font-weight: 400;
-    z-index: 4;
+    padding: 25px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
 }
 
 
-/*
 
 .list:nth-child(1):hover {
   position: absolute;
@@ -109,7 +132,59 @@ ul li {
 /*
 
 
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
 
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'K2D';
+    font-weight: 200;
+    width: 75vw;
+    height: 75vh;
+    margin: 10px;
+}
+
+.text-section {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    padding: 20px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    font-size: .5rem;
+    text-align: center;
+}
+
+#img-one {
+    width: 25vw;
+    height: 25vh;
+    padding: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 25vw;
+    padding: 20px;
+    padding-top: 100px;
+}
 
 h3 {
     letter-spacing: 2px;
@@ -125,20 +200,6 @@ h2 {
 
 /* welcome section start */
 
-h1, p {
-    color: #aaa;
-    z-index: 5;
-}
-
-.clip {
-    clip-path: polygon(0 0, 73% 0, 48% 100%, 0% 100%);
-    background: rgb(24, 22, 22);
-    width: 100vw;
-    height: 100vh;
-    z-index: 3;
-    position: absolute;
-}
-
 .welcome-container {
     display: flex;
     flex-direction: column;
@@ -146,7 +207,6 @@ h1, p {
     align-items: center;
     width: 100%;
     height: 100vh;
-    z-index: -1;
 }
 
 
