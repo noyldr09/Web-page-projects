@@ -224,6 +224,7 @@ span {
     font-family: "Satisfy", Verdana, serif;
     font-weight: 500;
     font-size: 3em;
+    
     color: #aaa;
     text-align: center;
     float: left;
@@ -425,8 +426,9 @@ footer {
     cursor: pointer;
 }
 
-.span-text {
+.footer-text {
     display: flex;
     justify-content: center;
+    font-family: "montserrat", Verdana, serif;
     padding: 0px 15px;
 }
