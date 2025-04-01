@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,450;1,450&family=Satisfy&display=swap');
+
 html,
 body {
     margin: 0;
@@ -17,14 +19,15 @@ body {
     margin: 0;
     padding: 0 px;
     background: transparent;
+    font-family:"Montserrat", sans-serif;
+    font-size: 16px;
     z-index: 5;
 }
 
 .list-nav a {
     display: block;
     padding: 0;
-    margin: 0;
-    font-size: 18px;
+    margin: 0;    
 }
 
 a {
